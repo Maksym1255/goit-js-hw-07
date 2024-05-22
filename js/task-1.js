@@ -3,7 +3,7 @@ console.log(`Namber of categories: ${liCategories.length}`);
 
 liCategories.forEach((elem) => {
     const itemTitel = elem.querySelector("h2").textContent;
-    const itemLi = elem.querySelectorAll("li").length;
+    const itemLi = elem.querySelectorAll("ul li").length;
 
     console.log(`Category: ${itemTitel}`);
     console.log(`Elements: ${itemLi}`);
